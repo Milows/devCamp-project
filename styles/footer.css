@@ -1,0 +1,30 @@
+footer{
+    color: aliceblue;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #36383f;
+    
+}
+
+footer h2 {
+    display: flex;
+    justify-content: center;
+    text-align:start;
+    width: 100%;
+    margin: 0px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 1px solid gray; 
+}
+
+footer> h2 .larger-footer-text {
+    margin-left: 5px;
+    font-size: 1.1em;
+}
+
+.spacer120{
+    height: 110px;
+    background-color: black;
+    opacity: 0.9;
+}

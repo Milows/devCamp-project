@@ -1,0 +1,83 @@
+@media (max-width: 615px) {
+    header{
+        flex-direction: column;
+        height: 100%;
+        padding-top: 10px;
+    }
+
+    header> .left-column {
+        flex-direction: column;
+        font-size: 1.1em;
+    }
+
+    header> .left-column> .navigation-wrapper{
+        margin-top: 20px;
+        padding: 0px;
+    }
+
+    header> .left-column> .navigation-wrapper h3{
+        display: flex;
+        justify-content: center;
+        font-size: 1.4em;
+    }
+
+    header> .left-column> .navigation-wrapper> .links-wrapper a{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        line-height: 1.2em;        
+    }
+
+    header> .left-column> .navigation-wrapper> .links-wrapper> .nav-link:nth-child(5) a{
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        margin: 0px;
+    }
+
+    header> .left-column> .navigation-wrapper> .links-wrapper> .nav-link i{
+        margin-left: 10px;
+    }
+    
+    header> .right-column {
+        flex-direction: column;
+        justify-content: center;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    header> .right-column button {
+     margin-bottom: 10px;  
+    }
+
+    header> .right-column> .search-icon  {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 10px;  
+       }
+    
+    .content-wrapper {
+        grid-template-columns: 1fr;
+
+    }
+     .content-wrapper> .left-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin:60px;
+        font-size: 0.7em;
+     }
+
+     .content-wrapper> .left-content button{
+        font-size: 2em;
+     }
+
+     .content-wrapper> .left-content> .registration-btn{
+        margin: 0px;
+     }
+
+     footer{
+        flex-direction: column;
+     }
+     
+    }
